@@ -1,0 +1,14 @@
+{
+
+  "manifest_version": 2,
+  "name": "DOMwatcher-test",
+  "version": "1.01",
+
+  "description": "Tests how often DOM watcher methods are triggered",
+
+  "content_scripts": [
+    {
+      "matches": ["*"],
+    }
+  ]
+}
